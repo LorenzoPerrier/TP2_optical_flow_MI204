@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 # Ouverture du flux video
-cap = cv2.VideoCapture(
-
-    r"C:\Users\loren\OneDrive - ENSTA Paris\ENSTA\2A\MI204\TP2\TP2_Videos\ZOOM_O_TRAVELLING.m4v")
+# videoFileName = "Extrait1-Cosmos_Laundromat1(340p)"
+videoFileName = "Extrait2-ManWithAMovieCamera"
+cap = cv2.VideoCapture(r"./TP2_Videos/" + videoFileName + ".m4v")
 # Extrait5-Matrix-Helicopter_Scene(280p).m4v")  # Extrait1-Cosmos_Laundromat1(340p).m4v")
 
 ret, frame1 = cap.read()  # Passe à l'image suivante
